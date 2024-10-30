@@ -1,7 +1,8 @@
-# %pip install --upgrade scikit-learn==0.23.0
+# pip install pandas
+# pip install --upgrade scikit-learn
 
 # import section
-from sklearn.datasets import load_boston
+from sklearn.datasets import load_breast_cancer
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
@@ -9,7 +10,7 @@ from sklearn.model_selection import GridSearchCV
 import pandas as pd
 
 # load the data
-X, y = load_boston(return_X_y=True)
+X, y = load_breast_cancer(return_X_y=True)
 
 # create a pipeline
 pipe = Pipeline([
