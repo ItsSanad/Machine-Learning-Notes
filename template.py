@@ -25,5 +25,5 @@ mod = GridSearchCV(estimator=pipe,
 # fit the model
 mod.fit(X, y);
 
-# display th model
-pd.DataFrame(mod.cv_results_)
+# display the model
+print(pd.DataFrame(mod.cv_results_))
