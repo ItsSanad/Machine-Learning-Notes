@@ -1,3 +1,8 @@
+'''
+This program builds a K-Nearest Neighbors (KNN) regressor pipeline to predict breast cancer data.
+It scales the data, then uses GridSearchCV to find the best number of neighbors (1 to 10) with cross-validation.
+Finally, it outputs the results, showing how different parameter values affect model performance.
+'''
 # pip install pandas
 # pip install --upgrade scikit-learn
 
