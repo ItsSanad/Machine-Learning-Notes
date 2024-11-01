@@ -2,5 +2,5 @@
 ![Sklearn1](https://github.com/user-attachments/assets/4d6cd2c6-475c-49fe-833a-b21df34f323f)
 
 ### template.py
-This program builds a K-Nearest Neighbors (KNN) regressor pipeline to predict breast cancer data. It scales the data, then uses GridSearchCV to find the best number of neighbors (1 to 10) with cross-validation. Finally, it outputs the results, showing how different parameter values affect model performance.
+This program predicts breast cancer data by scaling the data, testing multiple model settings to find the best one, and then displaying the results to show which settings work best for accurate predictions.
 
