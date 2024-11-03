@@ -4,3 +4,5 @@
 ### template.py
 This program predicts breast cancer data by scaling the data, testing multiple model settings to find the best one, and then displaying the results to show which settings work best for accurate predictions.
 
+### templateWithPredict.py
+This program loads the breast cancer dataset, splits it into training (80%) and testing (20%) sets, and builds a pipeline to scale the features and apply a K-Nearest Neighbors (KNN) regression model. Using `GridSearchCV`, it optimizes the number of neighbors in KNN through cross-validation. Finally, it predicts on the test set and calculates the Mean Squared Error (MSE) to evaluate the model's performance.
