@@ -1,3 +1,8 @@
+'''
+This code builds a machine learning pipeline to classify breast cancer as malignant or benign using a K-Nearest Neighbors (KNN) classifier.
+It standardizes the data, performs hyperparameter tuning for the number of neighbors (n_neighbors) using cross-validation,
+and evaluates the model’s accuracy on the test set.
+'''
 from sklearn.datasets import load_breast_cancer
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import StandardScaler
