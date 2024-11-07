@@ -1,3 +1,14 @@
+'''
+Steps:
+  1. Import Libraries
+  2. Generate or Load Data
+  3. Split the Data
+  4. Create and Train the Model
+  5. Make Predictions
+  6. Evaluate the Model
+  7. Visualize the Results
+  8. Interpret Model Parameters
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
