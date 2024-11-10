@@ -9,3 +9,6 @@ This program loads the breast cancer dataset, splits it into training (80%) and 
 
 ### LinearRegression.py
 With this implementation, you have a complete workflow for applying Univariate Linear Regression using scikit-learn. You can extend this foundation to work with other types of regression models and evaluate different performance metrics as needed.
+
+### PolynomialRegression.py
+This example demonstrates how to fit a polynomial curve to a dataset, as well as how to select the degree of the polynomial.
