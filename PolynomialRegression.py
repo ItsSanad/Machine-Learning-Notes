@@ -1,3 +1,10 @@
+'''
+This program fits a polynomial regression model to a synthetic dataset with a non-linear relationship.
+It transforms the input features into polynomial terms, trains the model,
+and evaluates its performance using Mean Squared Error (MSE) and R-squared (R2) score.
+Finally, it visualizes the data points and the fitted polynomial curve,
+showing how well the model captures the non-linear trend.
+'''
 # pip install scikit-learn pandas numpy
 
 import numpy as np
