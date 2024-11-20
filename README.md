@@ -12,3 +12,6 @@ With this implementation, you have a complete workflow for applying Univariate L
 
 ### PolynomialRegression.py
 This example demonstrates how to fit a polynomial curve to a dataset, as well as how to select the degree of the polynomial.
+
+### BackPropagation_Improved.ipynb
+The program implements a fully customizable neural network using backpropagation to train and evaluate on a dataset. It allows the user to define the architecture with any number of layers and units, enabling flexible experimentation with hyperparameters like learning rate, number of iterations, and layer sizes. The backpropagation algorithm computes gradients for weights and biases to minimize the mean squared error through gradient descent. The program includes functions for forward propagation, backpropagation, parameter updates, and performance evaluation, with visualization of training loss and accuracy over iterations. It demonstrates its functionality by training on datasets like the Iris dataset or generated datasets (e.g., "moons") to achieve accurate predictions.
